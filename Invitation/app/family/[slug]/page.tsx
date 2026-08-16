@@ -49,7 +49,7 @@ export async function generateMetadata({
       description,
       images: [
         {
-          url: "https://tumee-invitation.vercel.app/Direction.PNG",
+          url: "https://tumee-invitation.vercel.app/inv2.jfif",
           width: 1200,
           height: 630,
           alt: title,
@@ -61,7 +61,7 @@ export async function generateMetadata({
       title,
       description,
       images: [
-        "https://tumee-invitation.vercel.app/Direction.PNG",
+        "https://tumee-invitation.vercel.app/inv2.jfif",
       ],
     },
   };
