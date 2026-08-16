@@ -23,12 +23,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
         >
           {/* Video Section */}
           <div className="relative w-full h-[560px] overflow-hidden shadow-2xl ">
-            <motion.div
-              initial={{ scale: 1.08 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 1.6, ease: "easeOut" }}
-              className="w-[100%] h-[560px] relative overflow-hidden"
-            >
+            <div className="w-[100%] h-[560px] relative overflow-hidden">
               <video
                 src="/HeadVideo.mp4"
                 autoPlay
@@ -37,7 +32,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/6 mix-blend-multiply" />
-            </motion.div>
+            </div>
           </div>
         </motion.div>
 
