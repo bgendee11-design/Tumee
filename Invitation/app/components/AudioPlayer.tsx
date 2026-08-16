@@ -9,7 +9,7 @@ export default function AudioPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio("/music.mp4");
+    audioRef.current = new Audio("/Audio.mp3");
     audioRef.current.loop = true;
 
     // .. секундын дараа автоматаар эхлүүлэх
@@ -23,7 +23,7 @@ export default function AudioPlayer() {
           console.log("Auto play blocked:", e);
         });
 
-    }, 2000); // 2000ms = 2 секунд
+    }, 1000); // 1000ms = 1 секунд
 
 
     return () => {
