@@ -20,8 +20,8 @@ export default function AutoSlideSections({
     // Section бүрийн хугацаа (milliseconds)
     const durations = [
       5000,  // section 1
-      10000, // section 2
-      10000, // section 3
+      17000, // section 2
+      12000, // section 3
       1000,  // section 4
       5000,  // section 5
       5000,  // section 5
