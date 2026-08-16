@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Navigation } from "lucide-react";
 
 export default function DateLocationSection() {
-  const targetDate = new Date("2026-08-26T09:00:00").getTime();
+  const targetDate = new Date("2026-08-26T10:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -91,7 +91,7 @@ export default function DateLocationSection() {
             <span className="text-5xl font-serif text-red-900 relative">26</span>
           </motion.div>
           <div className="flex flex-col items-center">
-            <span className="text-4xl font-serif text-brown-900">09:00</span>
+            <span className="text-4xl font-serif text-brown-900">10:00</span>
             <span className="text-sm uppercase text-brown-600/80 tracking-widest mt-1">
               Цаг
             </span>
@@ -130,7 +130,7 @@ export default function DateLocationSection() {
         <div className="bg-white rounded-3xl p-8 shadow-lg max-w-sm mx-auto">
           <h4 className="font-serif font-medium text-xl text-brown-900 mb-6">
             Баянхонгор аймаг,<br />
-            Гандангийн 1-126 байр 3 тоот
+            Гандангийн 126-р байр 3 тоот
           </h4>
 
           <motion.a
