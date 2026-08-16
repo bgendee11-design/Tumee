@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-beige-50: #fdfbfb;
+  --color-beige-100: #f3ede6;
+  --color-brown-900: #8c5020;
+  --color-brown-600: #c07c41;
+  --color-primary-red: #e82c4f;
+
+  --font-sans: var(--font-inter), sans-serif;
+  --font-serif: var(--font-playfair), serif;
+  --font-cursive: var(--font-great-vibes), cursive;
+  /* Invitation turquoise palette (used for decorative accents in this design) */
+  --color-bg: #f4fbfc;
+  --color-decor: #26639E;
+  --color-decor-dark: #0d7a85;
+  --color-decor-ink: #083745;
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-cursive {
+  font-family: var(--font-cursive);
+}
+
+body {
+  background-color: var(--color-bg);
+  background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.414 1.415-14.14 14.14-1.415-1.414 14.14-14.14zm44.981 12.02l-1.414-1.414 14.14-14.14 1.414 1.414-14.14 14.14zM111 0h2v20h-2V0zM0 9h20v2H0V9zm120 0h-20v2h20V9zM0 109h20v2H0v-2zm120 0h-20v2h20v-2zM9 100h2v20H9v-20zm25.134 19.16l1.414-1.415-14.14-14.14-1.415 1.414 14.14 14.14zm44.981-12.02l-1.414 1.414 14.14 14.14 1.414-1.414-14.14-14.14zM111 100h2v20h-2v-20z' fill='%2312b8c9' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-decor), var(--color-decor-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Helper classes for components */
+.text-decor {
+  color: var(--color-decor);
+}
+
+.decor-border {
+  border-color: var(--color-decor-dark);
+}
+
+.frame-shadow {
+  box-shadow: 0 18px 40px rgba(8, 55, 69, 0.06);
+}
+
+/* Compatibility overrides: map existing brown/beige utility classnames to turquoise palette */
+.bg-beige-50 { background-color: var(--color-bg) !important; }
+.text-brown-900 { color: var(--color-decor-ink) !important; }
+.text-brown-900\/80 { color: var(--color-decor-ink) !important; opacity: 0.8; }
+.text-brown-600 { color: var(--color-decor) !important; }
+.text-brown-600\/80 { color: var(--color-decor) !important; opacity: 0.8; }
+.text-brown-600\/40 { color: var(--color-decor) !important; opacity: 0.4; }
+.bg-brown-600\/30 { background-color: var(--color-decor) !important; opacity: 0.3; }
+.bg-brown-600 { background-color: var(--color-decor) !important; }
+.border-brown-600 { border-color: var(--color-decor) !important; }
+.bg-white\/50 { background-color: rgba(255,255,255,0.5) !important; }
