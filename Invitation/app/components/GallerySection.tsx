@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 
 const IMAGES = [
   "/List1Pic.jpg",
-  "/List2Pic.jpg",
-  "/List3Pic.jpg",
+  "/List2Pic.jpeg",
+  "/List3Pic.jpeg",
 ];
 
 export default function GallerySection() {
