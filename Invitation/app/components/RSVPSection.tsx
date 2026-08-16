@@ -34,7 +34,7 @@ export default function RSVPSection() {
             </svg>
           </div>
           <h2 className="font-cursive text-2xl text-brown-900 mb-2">
-            Даваасүрэнгийн гэр бүл
+            Ж.Даваасүрэнгийн гэр бүл
           </h2>
         </div>
       </motion.div>

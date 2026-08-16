@@ -49,7 +49,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 1, ease: "easeOut" }}
         >
-          <div className="flex justify-center mb-2 mt-2">
+          <div className="flex justify-center mb-2 mt-4">
             <div className="inline-flex items-center  px-8 py-3 ">
               <span className="font-cursive text-4xl text-brown-900">Сэвлэг үргээх ёслол</span>
             </div>
@@ -80,7 +80,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
             )}
           </div>
 
-          <div className="flex justify-center mt-2 ">
+          <div className="flex justify-center mt-4 ">
             <div className="text-start mt-5 font-cursive text-brown-900/80 leading-relaxed max-w-sm mx-auto text-2xl ">
               <p>Сүүний үнэртэй сэвлэг нялх багын гоёл</p>
               <p>Сэвлэг даахиа үргээх эцэг өвгөдийн соёл</p>
