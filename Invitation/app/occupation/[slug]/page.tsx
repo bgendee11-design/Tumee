@@ -33,7 +33,7 @@ export async function generateMetadata({
   const description =
     "Сэвлэг үргээх ёслолд хүрэлцэн ирэхийг урьж байна.";
 
-  const url = `https://invitation-beryl-three.vercel.app/family/${encodeURIComponent(
+  const url = `https://tumee-invitation.vercel.app/occupation/${encodeURIComponent(
     slug
   )}`;
 
@@ -52,7 +52,7 @@ export async function generateMetadata({
       description,
       images: [
         {
-          url: "https://invitation-beryl-three.vercel.app/inv.jfif",
+          url: "https://tumee-invitation.vercel.app/Direction.PNG",
           width: 1200,
           height: 630,
           alt: title,
@@ -64,7 +64,7 @@ export async function generateMetadata({
       title,
       description,
       images: [
-        "https://invitation-beryl-three.vercel.app/inv.jfif",
+        "https://tumee-invitation.vercel.app/Direction.PNG",
       ],
     },
   };

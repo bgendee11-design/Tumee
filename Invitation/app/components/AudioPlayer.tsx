@@ -23,7 +23,7 @@ export default function AudioPlayer() {
           console.log("Auto play blocked:", e);
         });
 
-    }, 1000); // 1000ms = 1 секунд
+    }, 2000); // 2000ms = 2 секунд
 
 
     return () => {

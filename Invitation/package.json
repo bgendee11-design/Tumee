@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.22.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-     "clsx": "^2.1.1",
-    "embla-carousel-react": "^8.6.0",
-    "framer-motion": "^12.42.0",
-    "lucide-react": "^1.22.0",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
