@@ -59,24 +59,10 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
             >
               {/* Decorative Background */}
               <div className="absolute inset-0 flex items-center justify-center">
-                {/* Sun - Top Right */}
-                <motion.div
-                  className="absolute top-8 right-12 text-4xl"
-                  animate={{ 
-                    y: [0, -10, 0],
-                    rotate: [0, 360]
-                  }}
-                  transition={{ 
-                    y: { duration: 3, repeat: Infinity, ease: "easeInOut" },
-                    rotate: { duration: 20, repeat: Infinity, ease: "linear" }
-                  }}
-                >
-                  ☀️
-                </motion.div>
                 
                 {/* Bird - Top Left */}
                 <motion.div
-                  className="absolute top-16 left-8 text-3xl"
+                  className="absolute top-16 left-8 w-12 h-14"
                   animate={{ 
                     x: [-20, 20, -20],
                     y: [0, -15, 0]
@@ -88,29 +74,29 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
                     delay: 0.2
                   }}
                 >
-                  🕊️
+                  <img src="/bird.gif" alt="bird" className="w-full h-full" />
                 </motion.div>
                 
                 {/* Money Bag - Left */}
                 <motion.div
-                  className="absolute left-0 top-1/3 text-4xl"
+                  className="absolute left-0 top-1/2 w-24 h-24"
                   animate={{ 
-                    y: [0, 15, 0],
-                    x: [0, 5, 0]
+                    y: [0, 0, 0],
+                    x: [0, 3, 0]
                   }}
                   transition={{ 
-                    duration: 3.5,
+                    duration: 6.5,
                     repeat: Infinity,
                     ease: "easeInOut",
-                    delay: 0.4
+                    delay: 1
                   }}
                 >
-                  ☁️
+                   <img src="/cloud.gif" alt="cloud" className="w-full h-full" />
                 </motion.div>
                 
                 {/* Birds - Right */}
                 <motion.div
-                  className="absolute right-4 top-1/2 text-3xl"
+                  className="absolute right-4 top-1/2 w-8 h-8"
                   animate={{ 
                     x: [20, -20, 20],
                     y: [0, -10, 0]
@@ -122,7 +108,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
                     delay: 0.6
                   }}
                 >
-                  🕊️
+                  <img src="/bird.gif" alt="bird" className="w-full h-full" />
                 </motion.div>
             
               </div>
