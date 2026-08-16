@@ -29,6 +29,8 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
                 autoPlay
                 loop
                 muted
+                playsInline
+                controlsList="nofullscreen"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/6 mix-blend-multiply" />
