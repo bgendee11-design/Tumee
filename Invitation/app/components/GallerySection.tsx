@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const IMAGES = [
-  "/List1Pic.jpg",
+  "/List1Pic.jpeg",
   "/List2Pic.jpeg",
   "/List3Pic.jpeg",
 ];
