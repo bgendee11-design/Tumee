@@ -194,7 +194,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.1, duration: 0.6 }}
               >
-                Эрхэм хүндэт таныг гэр бүлийн хамт бидний хайрт хүү Д.Түмэнтөгөлдөрийн сэвлэг үргээх ёслолд хүрэлцэн ирэхийг урьж байна.
+                Эрхэм хүндэт та бүхнийг гэр бүлийн хамт бидний хайрт хүү Д.Түмэнтөгөлдөрийн сэвлэг үргээх ёслолд хүрэлцэн ирэхийг урьж байна.
               </motion.p>
             )}
             {Category === "FAMILY" && (
