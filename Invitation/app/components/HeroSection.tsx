@@ -22,8 +22,8 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
           className="w-full flex justify-center mb-8"
         >
           {/* Video Section */}
-          <div className="relative w-full h-[560px] overflow-hidden shadow-2xl ">
-            <div className="w-[100%] h-[560px] relative overflow-hidden">
+          <div className="relative w-full h-screen overflow-hidden shadow-2xl ">
+            <div className="w-[100%] h-screen relative overflow-hidden">
               <video
                 src="/HeadVideo.mp4"
                 autoPlay
@@ -31,7 +31,7 @@ export default function HeroSection({ Category, name }: HeroSectionProps) {
                 muted
                 playsInline
                 controlsList="nofullscreen"
-                className="w-full h-full object-cover"
+                className="w-full h-screen object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/6 mix-blend-multiply" />
             </div>
